@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import styled from 'styled-components'; 
 import{NavLink} from 'react-router-dom'; 
 
+
+const HomePage = styled.div`
+  border: 1px solid black; 
+  width: 100%; 
+  height: auto; 
+`
 const NavBox = styled.div`
   width: 100%;
   height: auto; 
@@ -151,7 +157,7 @@ const TradeMark = styled.div`
 class Home extends Component {
     render(){
         return(
-        <div>
+        <HomePage>
             <NavBox>
           <Logo>
             Fresh Pickens
@@ -232,7 +238,7 @@ class Home extends Component {
           <h3>2018 FRESH PICKENS.ALL RIGHTS RESERVED. PRIVACY POLICY</h3>
         </TradeMark>
         </BottomSection>
-        </div>
+        </HomePage>
         )
     }
 }
