@@ -142,7 +142,7 @@ const BottomTextImg = styled.img`
 `
 const BottomSection = styled.div`
   width: 100%; 
-  background: #604B38; 
+  background: #494949; 
   height: auto; 
   display: flex;
   flex-wrap: wrap;  
@@ -156,8 +156,8 @@ const InfoBox = styled.section`
 const TradeMark = styled.div`
   width: 90%; 
   height: auto; 
-  background:#0C391B; 
-  color: #FF8A00;
+  background:#FF8A00; 
+  color:#494949;
   display: flex; 
   justify-content: center; 
 `
