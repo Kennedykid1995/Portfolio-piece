@@ -11,7 +11,6 @@ const MenuHolder = styled.div`
 const MenuBox = styled.div`
   width: 90%;
   height: 1000px;
-  border: 1px solid red;
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
@@ -21,12 +20,24 @@ const MenuBox = styled.div`
 const MenuItem = styled.div`
   width: 20%;
   height: auto;
-  border: 1px solid green;
+  border: 5px solid #0C391B;
+  border-radius: 10px; 
   margin: 10px;
+  cursor: pointer;
+  transition: border .5s ease
+  transiton: all .5s ease-in-out;
+  &:hover{
+    position: relative; 
+    border: 5px solid #FF8A00; 
+    transform: scale(1.1); 
+    }
 `;
 const MenuItemImg = styled.img`
   width: 100%;
   height: auto;
+  border-top-right-radius: 4px; 
+  border-top-left-radius: 4px; 
+  }
 `;
 const MenuItemName = styled.header`
   width: 100%;

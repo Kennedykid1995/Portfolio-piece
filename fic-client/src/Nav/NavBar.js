@@ -22,16 +22,11 @@ const Nav = styled.div`
 const NavItem = styled(NavLink)`
 font-size: 15px;
 text-decoration: none; 
-color: black;
 color: white;
+transition: color .5s ease
 &:hover{
   position: relative;
-  animation: pulse 2s infinite;
-}
-@keyframes pulse{
-  0%{color: white}
-  50%{color: #FF8A00}
-  100%{color: white}
+  color: #FF8A00; 
 }
 :before {
   content: "";
